@@ -1,2 +1,6 @@
+import CryptoJS from 'crypto-js';
 
-console.log('你好，世界');
+const message = '1';
+const key = '2';
+const result = CryptoJS.HmacSHA256(message, key).toString();
+console.log(result);

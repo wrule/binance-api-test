@@ -1,0 +1,16 @@
+{
+  "name": "binance-api-test",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "node dist/index.js"
+  },
+  "repository": "https://github.com/wrule/binance-api-test",
+  "author": "jimao <1982775886@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/crypto-js": "^4.0.1",
+    "crypto-js": "^4.0.0"
+  }
+}
